@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;700&family=Poppins:wght@300;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar-logo h4{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+#navbar-id a{
+    color: white !important;
+    margin-left: 20px;
+}
+#main-navbar{
+    padding:0px !important ;
+    position: relative;
+}
+
+.nav-link{
+    position: relative;
+    
+}
+#nav-ul .nav-item a.nav-link{
+    transition: color 0.4s ease-in-out;
+}
+
+#nav-ul .nav-item a.nav-link:hover{
+    color: yellow !important;
+}
+#nav-ul{
+    margin-left: 50px !important;
+}
+
+.nav-link::after{
+    content: '';
+    background-color: yellow !important;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 6px;
+    left: 0px;
+    transform: scaleX(0);
+    transition: transform 0.4s ease-in-out;
+    transform-origin: right;
+
+}
+.nav-link:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.dropdown-menu .dropdown-item{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 0px !important;
+   
+     /* color: black !important;  */
+
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: black;
+    border: 1px solid yellow;
+     
+ 
+}
+#nav-ul .dropdown-menu a.dropdown-item{
+    color: black !important;
+    font-weight: 600;
+}
+#nav-ul .dropdown-menu a.dropdown-item:hover{
+    color: white !important;
+  
+}
+#hero-head-logo h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: -6px;
+    color: #0f2b3c;
+
+}
+#hero-head-logo p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: #0f2b3c;
+}
+#hero-head{
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 50%, #76b5c5 100%);
+    height: 560px;
+    width: 100%;
+}
+#popular-now-text h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: #0f2b3c; 
+   
+}
+#popular-now{
+    height: 500px;
+    border-radius:20px;
+}
+#popular-now .card{
+    transition: transform 0.3s ease-in-out;
+}
+#popular-now .card:hover{
+    transform: translateY(-10px);
+}
+#course-categories-text h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: #0f2b3c;
+    /* margin-left: 45px; */
+}
+#course-box button{
+    font-family: poppins;
+    font-weight: 600;
+
+}
+#course-box button:hover{
+    background-color: black !important;
+    border: 3px solid yellow;
+}
+#subscription{
+    background-image: url('subsbag.jpg');
+    border-radius: 30px;
+    height: 400px;
+    background-size: cover;
+}
+#first-footer p{
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: 400;
+    
+}
+#second-footer p{
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: #cccccc;
+}
+#third-footer p{
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: #cccccc;
+}
+
